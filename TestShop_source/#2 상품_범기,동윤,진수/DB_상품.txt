@@ -1,0 +1,14 @@
+create table shop_product(
+num number primary key, 
+name varchar2(200) not null, 
+quantity number not null, 
+info varchar2(500), 
+price number not null, 
+seller_id varchar2(20) references shop_member(id) on delete cascade, 
+prod_score number(10) 
+category1_id number references category1(id), 
+category2_id number references category2(id), 
+category3_id number references category3(id));
+);
+
+create sequence seq_shop_product;

@@ -1,0 +1,85 @@
+html { font-size: 62.5%; }
+
+.container {
+    /* border: 1px solid black; */
+    margin-top: 5rem;
+    height: 600px;
+}
+
+.logo_container {
+    /* border : 1px solid red; */
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: auto;
+    margin-top: 10rem;
+}
+
+.login_container {
+    /* border : 1px solid blue; */
+    min-height: 600px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: auto; */
+    margin-top: 6rem;
+}
+
+.id_area {
+    margin-top: 8rem;
+}
+
+.login_form {
+    margin: auto;
+    padding: auto;
+    width: 50%;
+}
+
+
+.login_label {
+    font-size: 4rem;
+}
+
+.id, .pw {
+    border-radius: 10px;
+    border: 1px solid #dadada;
+    width: 95%;
+    height: 5rem;
+    margin: 1rem 0 1.5rem 0;
+    font-size: 2rem;
+}
+
+.id_check, .pw_check {
+    font-size: 1.5rem;
+}
+
+.login_btn {
+    width: 96%;
+    margin: 1.5rem 0 0 0;
+    border-radius: 10px;
+    border: 1px solid black;
+    min-height: 5rem;
+    background-color: #99E0B8;
+    font-size: 2.5rem;
+    border-style: none;
+    color: white;
+}
+
+.register_area {
+    margin: 3rem 0 0 0;
+    font-size: 2rem;
+}
+
+.register, .find_pw {
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,24 @@
+create sequence seq_admin;
+
+create table shop_admin(
+  num number primary key,
+  id varchar2(20) references shop_member(id) on delete cascade
+);
+
+create sequence seq_category1;
+create sequence seq_category2;
+create sequence seq_category3;
+
+create table category1(
+num number primary key, 
+name varchar2(50) not null);
+
+create table category2(
+num number primary key, 
+name varchar2(50) not null, 
+p_num number references category1(id) on delete cascade);
+
+create table category3(
+num number primary key, 
+name varchar2(50) not null, 
+p_num number references category2(id) on delete cascade
