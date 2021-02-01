@@ -1,0 +1,9 @@
+# TestShop Ignore File #
+
+
+*.log
+*.bak
+
+*.class
+*.jar
+*.project
