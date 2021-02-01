@@ -4,123 +4,148 @@ import java.sql.Date;
 
 public class Member {
 
-   private String id;
-   private String pwd;
-   private String name;
-   private String tel;
-   private String email;
-   private String postcode;
-   private Date reg_date;
-   private String addr1;
-   private String addr2;
-   private int type;
-   
-   public Member() {
-      super();
-   }
+	private int num;
+	private String id;
+	private String pwd;
+	private String name;
+	private String nickname;
+	private String tel;
+	private String email;
+	private String postcode;
+	private Date reg_date;
+	private String addr1;
+	private String addr2;
+	private int type;
+	
+	public Member() {
+		super();
+	}
 
-   public Member(String id, String pwd, String name, String tel, String email, String postcode, Date reg_date,
-         String addr1, String addr2, int type) {
-      super();
-      this.id = id;
-      this.pwd = pwd;
-      this.name = name;
-      this.tel = tel;
-      this.email = email;
-      this.postcode = postcode;
-      this.reg_date = reg_date;
-      this.addr1 = addr1;
-      this.addr2 = addr2;
-      this.type = type;
-   }
+	public Member(int num, String id, String pwd, String name, String nickname, String tel, String email,
+			String postcode, Date reg_date, String addr1, String addr2, int type) {
+		super();
+		this.num = num;
+		this.id = id;
+		this.pwd = pwd;
+		this.name = name;
+		this.nickname = nickname;
+		this.tel = tel;
+		this.email = email;
+		this.postcode = postcode;
+		this.reg_date = reg_date;
+		this.addr1 = addr1;
+		this.addr2 = addr2;
+		this.type = type;
+	}
 
-   public String getId() {
-      return id;
-   }
+	public int getNum() {
+		return num;
+	}
 
-   public void setId(String id) {
-      this.id = id;
-   }
+	public void setNum(int num) {
+		this.num = num;
+	}
 
-   public String getPwd() {
-      return pwd;
-   }
+	public String getId() {
+		return id;
+	}
 
-   public void setPwd(String pwd) {
-      this.pwd = pwd;
-   }
+	public void setId(String id) {
+		this.id = id;
+	}
 
-   public String getName() {
-      return name;
-   }
+	public String getPwd() {
+		return pwd;
+	}
 
-   public void setName(String name) {
-      this.name = name;
-   }
+	public void setPwd(String pwd) {
+		this.pwd = pwd;
+	}
 
-   public String getTel() {
-      return tel;
-   }
+	public String getName() {
+		return name;
+	}
 
-   public void setTel(String tel) {
-      this.tel = tel;
-   }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-   public String getEmail() {
-      return email;
-   }
+	public String getNickname() {
+		return nickname;
+	}
 
-   public void setEmail(String email) {
-      this.email = email;
-   }
+	public void setNickname(String nickname) {
+		this.nickname = nickname;
+	}
 
-   public String getPostcode() {
-      return postcode;
-   }
+	public String getTel() {
+		return tel;
+	}
 
-   public void setPostcode(String postcode) {
-      this.postcode = postcode;
-   }
+	public void setTel(String tel) {
+		this.tel = tel;
+	}
 
-   public Date getReg_date() {
-      return reg_date;
-   }
+	public String getEmail() {
+		return email;
+	}
 
-   public void setReg_date(Date reg_date) {
-      this.reg_date = reg_date;
-   }
+	public void setEmail(String email) {
+		this.email = email;
+	}
 
-   public String getAddr1() {
-      return addr1;
-   }
+	public String getPostcode() {
+		return postcode;
+	}
 
-   public void setAddr1(String addr1) {
-      this.addr1 = addr1;
-   }
+	public void setPostcode(String postcode) {
+		this.postcode = postcode;
+	}
 
-   public String getAddr2() {
-      return addr2;
-   }
+	public Date getReg_date() {
+		return reg_date;
+	}
 
-   public void setAddr2(String addr2) {
-      this.addr2 = addr2;
-   }
+	public void setReg_date(Date reg_date) {
+		this.reg_date = reg_date;
+	}
 
-   public int getType() {
-      return type;
-   }
+	public String getAddr1() {
+		return addr1;
+	}
 
-   public void setType(int type) {
-      this.type = type;
-   }
+	public void setAddr1(String addr1) {
+		this.addr1 = addr1;
+	}
 
-   @Override
-   public String toString() {
-      return "Member [id=" + id + ", pwd=" + pwd + ", name=" + name + ", tel=" + tel + ", email=" + email
-            + ", postcode=" + postcode + ", reg_date=" + reg_date + ", addr1=" + addr1 + ", addr2=" + addr2
-            + ", type=" + type + "]";
-   }
-   
-   
-   
+	public String getAddr2() {
+		return addr2;
+	}
+
+	public void setAddr2(String addr2) {
+		this.addr2 = addr2;
+	}
+
+	public int getType() {
+		return type;
+	}
+
+	public void setType(int type) {
+		this.type = type;
+	}
+
+	@Override
+	public String toString() {
+		return "Member [num=" + num + ", id=" + id + ", pwd=" + pwd + ", name=" + name + ", nickname=" + nickname
+				+ ", tel=" + tel + ", email=" + email + ", postcode=" + postcode + ", reg_date=" + reg_date + ", addr1="
+				+ addr1 + ", addr2=" + addr2 + ", type=" + type + "]";
+	}
+
+	
+
+
+
+	
+	
+	
 }

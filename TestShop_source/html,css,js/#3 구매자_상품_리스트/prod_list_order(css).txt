@@ -1,0 +1,62 @@
+html { font-size: 62.5%; }
+
+.container {
+    /* border: 1px solid black; */
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.product_container {
+    /* border : 1px solid blue; */
+    margin : 0 20rem 0 30rem;
+    width: 70%;
+    display: flex;
+}
+
+.product_content {
+    /* border : 1px solid purple; */
+    width: 70%;
+    margin-left: 3rem;
+}
+
+.prodcut_name, .product_category, .product_price, .product_score, .product_info {
+    margin: 1rem 0 1rem 0;
+}
+
+.product_img {
+    /* border: 1px solid red; */
+    width: 30%;
+    height: 250px;
+}
+
+.prod_name {
+    font-size: 3.5rem;
+}
+
+.prod_category {
+    font-size: 1.6rem;
+}
+
+.prod_score, .prod_score_avg {
+    font-size: 1.7rem;
+}
+
+.prod_price {
+    font-size: 2.5rem;
+}
+
+.prod_info {
+    font-size: 1.7rem;
+}
+
+.prod_button {
+    float: right;
+}
+
+.prod_btn {
+    background-color: aquamarine;
+    border-radius: 5px;
+    font-size: 2rem;
+}
