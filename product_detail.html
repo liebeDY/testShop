@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="product_detail.css">
+
+</head>
+
+<body>
+
+    <div id="main_detail_area">
+
+        <div id="main_photo_area">
+            <img src="가전 디지털23.jpg" alt="" id="main_phto_img">
+        </div>
+
+        <div id="main_detail_contents_area">
+
+            <div id="main_product_name">
+                <p>상품 이름이에요</p>
+            </div>
+
+            <div id="main_product_price">
+                <p>50,000원</p>
+            </div>
+
+            <div id="main_product_option_area">
+
+                <div class="main_product_options" id="main_product_option_1">
+                    <select>
+                        <option value="1">색상</option>
+                        <option value="2">레드</option>
+                        <option value="3">블랙</option>
+                        <option value="4">화이트</option>
+                    </select>
+                </div>
+
+                <div class="main_product_options" id="main_product_option_2">
+                    <select>
+                        <option value="1">사이즈</option>
+                        <option value="2">큰거</option>
+                        <option value="3">중간거</option>
+                        <option value="4">작은거</option>
+                    </select>
+                </div>
+
+                <div class="main_product_options" id="main_product_option_3">
+
+                </div>
+            </div>
+
+
+            <!-- 수량, 총 금액 -->
+            <div id="main_total_price_area">
+
+                <!-- 수량 테이블 -->
+                <table>
+
+                    <tr style="text-align:center;">
+                        <td>수량</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="button" onclick="fnCalCount('p',this);">+</button>
+                            <input type="text" name="pop_out" value="0" readonly="readonly" style="text-align:center;" />
+                            <button type="button" onclick="fnCalCount('m', this);">-</button>
+                        </td>
+                    </tr>
+                </table>
+
+                <!-- 총 금액 -->
+
+
+            </div>
+
+
+
+            <div id="main_button_area">
+                <div id="main_button_buy_div">
+                    <input type="button" class="main_button" id="main_button_buy" value="구매하기">
+                </div>
+
+                <div id="main_button_cart_div">
+                    <input type="button" class="main_button" id="main_button_cart" value="찜하기">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="board_area">
+        <ul id="board_ul">
+            <li>상세정보</li>
+            <li>리뷰</li>
+            <li>반품/교환정보</li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
