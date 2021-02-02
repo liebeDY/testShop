@@ -13,6 +13,11 @@ public class MemberService {
 		public void addMember(Member m) {
 			mapper.insert(m);
 		}
+		
+		public Member getNickname(String nickname) {
+			
+			return mapper.selectnick(nickname);
+		}
 	
 		public Member getMember(String id) {
 			return mapper.select(id);

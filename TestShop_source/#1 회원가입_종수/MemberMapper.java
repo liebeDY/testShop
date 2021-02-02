@@ -8,6 +8,7 @@ public interface MemberMapper {
 		void insert(Member m);
 		
 		Member select(String id);
+		Member selectnick(String nickname);
 		
 		void update(Member m);
 		
